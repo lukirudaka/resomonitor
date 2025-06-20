@@ -1,7 +1,8 @@
 # Resomon
 ## An open source resource monitor within Resonite
 ### Intended Use
-Monitoring PC resources, most importantly of which being RAM and VRAM usage, from within Resonite. Because of the way this works, it will only work on Linux without significant modifications.
+Monitoring PC resources, most importantly of which being RAM and VRAM usage, from within Resonite. Because of the way this works, it will only work on Linux without significant modifications.  
+This allows users with limited system resources to monitor how much RAM and VRAM is in use by the system, allowing them to exit resonite before it fills up the RAM and crashes the system.
 ### Default setup
 - Updates local files every quarter of a second
 - Pulls GPU data via the nvidia-settings command
