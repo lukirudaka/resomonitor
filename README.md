@@ -1,4 +1,4 @@
-# Resomon
+# Resomonitor
 ## An open source resource monitor within Resonite
 ### Intended Use
 Monitoring PC resources, most importantly of which being RAM and VRAM usage, from within Resonite. Because of the way this works, it will only work on Linux without significant modifications.  
@@ -21,7 +21,8 @@ The start.sh script will, by default, start the server in the current directory.
 #### The sensor data
 Use your text editor of choice to edit the monitor.sh script. The script runs in a loop, and uses awk, sed, and cut in order to isolate extracted data to just the raw numbers.
 #### Resonite's side
-TODO: Make a public folder containing the flux.
+This folder has premade flux that I use to create my system monitor on my context menu:  
+resrec:///U-1VhHpnnRH9s/R-F0367F7DDCDEB7B0E01A8C495B8585CB01D216F399A5E19C0AACD02E9A41DF48
 #### Modification
 You are free to modify Resomonitor to suit your needs, but if you do publish it, ensure to credit me.  
 A script to make modification easier is included, named "protomonitor.sh". Once you're finished making the command, you can drop it in monitor.sh's loop. Don't forget to pipe it to a file!
