@@ -15,7 +15,8 @@ Resomon has two sides, a web server, and a script to update the plaintext files 
 #### The web server
 Any web server that will respond with plaintext will do.  
 By default, the start script is configured for webfsd, running within a distrobox.  
-The port the protoflux points to is 8225. Ensure that port is not in use by another process. **You do NOT need to forward this port. Doing so is NOT ADVISABLE, as it opens your home network to attack. I am not responsible for any network intrusions if you do this.**
+The port the protoflux points to is 8225. Ensure that port is not in use by another process. **You do NOT need to forward this port. Doing so is NOT ADVISABLE, as it opens your home network to attack. I am not responsible for any network intrusions if you do this.**  
+The start.sh script will, by default, start the server in the current directory. You can hardcode the directory if you wish by changing the value of the -R command line argument.
 #### The sensor data
 Use your text editor of choice to edit the monitor.sh script. The script runs in a loop, and uses awk, sed, and cut in order to isolate extracted data to just the raw numbers.
 #### Resonite's side
