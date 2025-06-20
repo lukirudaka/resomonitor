@@ -21,4 +21,7 @@ The start.sh script will, by default, start the server in the current directory.
 #### The sensor data
 Use your text editor of choice to edit the monitor.sh script. The script runs in a loop, and uses awk, sed, and cut in order to isolate extracted data to just the raw numbers.
 #### Resonite's side
-Follow the included schematic within Moduprint. I will set up a public folder later.
+TODO: Make a public folder containing the flux.
+#### Modification
+You are free to modify Resomonitor to suit your needs, but if you do publish it, ensure to credit me.  
+A script to make modification easier is included, named "protomonitor.sh". Once you're finished making the command, you can drop it in monitor.sh's loop. Don't forget to pipe it to a file!
